@@ -1,0 +1,10 @@
+{
+    "workbench.editor.enablePreview": false,
+    "editor.inlineCompletionsAccessibilityVerbose": true,
+    "emmet.useInlineCompletions": true,
+    "java.completion.collapseCompletionItems": true,
+    "editor.tabCompletion": "on",
+    "editor.quickSuggestions": {
+        "comments": "on"
+    }
+}

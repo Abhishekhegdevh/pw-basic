@@ -1,0 +1,137 @@
+{
+	"id": "95638f14-bac8-42c9-9fc6-c287c228fcf8",
+	"name": "PetStore",
+	"timestamp": "2025-10-25T15:11:27.766Z",
+	"collection_id": "25385378-50c970cf-a2e2-4a34-9eae-4dfbd349dd2b",
+	"folder_id": 0,
+	"environment_id": "25385378-3e03959a-a158-4708-9265-e06956fb0a42",
+	"totalPass": 3,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-10-25T15:11:25.954Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "039c9144-f655-40a5-bc9c-4ce70a5aeea6",
+			"name": "https://petstore.swagger.io/v2/user",
+			"url": "https://petstore.swagger.io/v2/user",
+			"time": 259,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				259
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "505793ba-1671-4951-a07b-71c880124303",
+			"name": "https://petstore.swagger.io/v2/user/aa",
+			"url": "https://petstore.swagger.io/v2/user/johnhhocbg52blp",
+			"time": 256,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				256
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "b4709145-f105-4123-a310-45ac63e95aad",
+			"name": "https://petstore.swagger.io/v2/user/abhi",
+			"url": "https://petstore.swagger.io/v2/user/johnhhocbg52blp",
+			"time": 258,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				258
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "dd26e4a5-8d9f-46b6-a681-29f7db80ad97",
+			"name": "https://petstore.swagger.io/v2/user/abhi",
+			"url": "https://petstore.swagger.io/v2/user/johnhhocbg52blp",
+			"time": 258,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				258
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1031,
+	"collection": {
+		"requests": [
+			{
+				"id": "039c9144-f655-40a5-bc9c-4ce70a5aeea6",
+				"method": "POST"
+			},
+			{
+				"id": "505793ba-1671-4951-a07b-71c880124303",
+				"method": "GET"
+			},
+			{
+				"id": "b4709145-f105-4123-a310-45ac63e95aad",
+				"method": "PUT"
+			},
+			{
+				"id": "dd26e4a5-8d9f-46b6-a681-29f7db80ad97",
+				"method": "DELETE"
+			}
+		]
+	}
+}
